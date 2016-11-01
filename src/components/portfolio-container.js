@@ -33,34 +33,35 @@ export default class PortfolioContainer extends Component {
       </div>
       <div className="container portfolio-nav">
       <Link to="/">
-        <div className="portfolio-div">
+        <div className="portfolio-div-two">
           <h4>back home</h4>
           <img src={leftArrow} alt="home icon"
-            className="portfolio-icon"
+            className="portfolio-icon-two"
             />
         </div>
       </Link>
-        <div className="portfolio-div">
+        <div className="portfolio-div-two"
+          onClick={() => {this.setState({ project: "sesame"})}}>
         <h4>sesame</h4>
         <img src={sesame} alt="sesame icon"
-        className="portfolio-icon"
-        onClick={() => {this.setState({ project: "sesame"})}}/>
+        className="portfolio-icon-two"/>
         </div>
-        <div className="portfolio-div">
+        <div className="portfolio-div-two"
+          onClick={() => {this.setState({ project: "fairshare"})}}>
           <h4>fairshare</h4>
           <img src={money} alt="fairshare icon"
-            className="portfolio-icon"
-            onClick={() => {this.setState({ project: "fairshare"})}}/>
+            className="portfolio-icon-two"/>
         </div>
-        <div className="portfolio-div">
+        <div className="portfolio-div-two"
+          onClick={() => {this.setState({ project: "wiki"})}}>
           <h4>wiki of thrones</h4>
-          <img src={crow} alt="wiki icon" className="portfolio-icon"
-          onClick={() => {this.setState({ project: "wiki"})}}/>
+          <img src={crow} alt="wiki icon"
+          className="portfolio-icon-two"/>
         </div>
-        <div className="portfolio-div">
+        <div className="portfolio-div-two"
+          onClick={() => {this.setState({ project: "reddit"})}}>
           <h4>reddit klone</h4>
-          <img src={reddit} alt="reddit icon" className="portfolio-icon"
-          onClick={() => {this.setState({ project: "reddit"})}}/>
+          <img src={reddit} alt="reddit icon" className="portfolio-icon-two"/>
         </div>
       </div>
       <ProjectName project={this.state.project}/>

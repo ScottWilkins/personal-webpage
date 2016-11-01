@@ -96,7 +96,7 @@ constructor(props){
                   <div className="text">
                     <h3>Hi</h3>
                     <p>I'm Scott</p>
-                    <p>I live in Denver Colorado. Salvia tacos subway tile poke photo booth, paleo food truck dreamcatcher blog hot chicken gluten-free. Heirloom craft beer poke, lumbersexual offal mlkshk echo park bespoke vegan small batch. Austin fingerstache 8-bit, ethical shoreditch put a bird on it chia stumptown wolf post-ironic.</p>
+                    <p>I live in Denver Colorado and my latest passion is using React and Redux to create dynamic web pages. The combination of modularity with state management is fantastic. I've recently graduated from the Galvanize Web Immersive program with over 1000 hours of hands-on training. This has given me a great perspective on both front and back end development as well as the ability to learn new technologies quickly.  </p>
                   <h3 className="x" onClick={this.emsmallen}
                      data-target=".bubble-about"
                      data-expression=".title-rabbit"
@@ -178,22 +178,71 @@ constructor(props){
                 <div>
                   <div className="row">
                     <div className="img-skills skills">
-                      <img src={htmlCss} alt="htmlCss" />
-                      <img src={nodeJS} alt="nodeJS" />
-                      <img src={react} alt="react" />
-                      <img src={redux} alt="redux" />
-                      <img src={postgresQL} alt="postgresQL" />
-                      <img src={angular} alt="angular" />
-                      <img src={firebase} alt="firebase" />
-                      <img src={express} alt="express" />
-                        <h3 className="x" onClick={this.emsmallen}
-                           data-target=".bubble-skills"
-                           data-expression=".title-llama"
-                           data-content=".skills"
-                           data-icon=".llama"
-                           data-direction="left">
-                           X
-                         </h3>
+                      <table>
+                        <tr>
+                          <th>Languages</th>
+                          <th>Techniques</th>
+                          <th>Tools</th>
+                        </tr>
+                        <tr>
+                          <td>JavaScript</td>
+                          <td>Node.js</td>
+                          <td>Agile Process</td>
+                        </tr>
+                        <tr>
+                          <td>HTML5</td>
+                          <td>Express</td>
+                          <td>TDD</td>
+                        </tr>
+                        <tr>
+                          <td>CSS3</td>
+                          <td>React</td>
+                          <td>Pair Programming</td>
+                        </tr>
+                        <tr>
+                          <td>SQL</td>
+                          <td>AngularJS</td>
+                          <td>Pivotal Tracker</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>jQuery</td>
+                          <td>API integration</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Knex.js</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Git/Github</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Bootstrap</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Firebase</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Heroku</td>
+                          <td></td>
+                        </tr>
+                      </table>
+                      <h3 className="x skills-x" onClick={this.emsmallen}
+                         data-target=".bubble-skills"
+                         data-expression=".title-llama"
+                         data-content=".skills"
+                         data-icon=".llama"
+                         data-direction="left">
+                         X
+                       </h3>
                   </div>
 
                   </div>
@@ -244,3 +293,12 @@ constructor(props){
 }
 
 export default App;
+
+// <img src={htmlCss} alt="htmlCss" />
+// <img src={nodeJS} alt="nodeJS" />
+// <img src={react} alt="react" />
+// <img src={redux} alt="redux" />
+// <img src={postgresQL} alt="postgresQL" />
+// <img src={angular} alt="angular" />
+// <img src={firebase} alt="firebase" />
+// <img src={express} alt="express" />
