@@ -9,7 +9,7 @@ export default function() {
             <Link to="/">home</Link>
           </div>
           <div className="col-sm-1 col-xs-6">
-            <Link to="/about">about</Link>
+            <Link to="/about">about me</Link>
           </div>
           <div className="col-sm-1 col-xs-6">
             <Link to="/portfolio">portfolio</Link>

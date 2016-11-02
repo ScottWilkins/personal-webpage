@@ -4,7 +4,7 @@ export default function() {
       <div>
         <div className="footer-div">
           <div className="footer">
-            <h2> <i className="fa fa-envelope"></i> Message Me </h2>
+            <a href="mailto:scottjeffreywilkins@gmail.com"><h2> <i className="fa fa-envelope"></i> Message Me </h2></a>
           </div>
         </div>
         <div className="footer-color-bar"></div>
