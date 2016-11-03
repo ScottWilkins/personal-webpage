@@ -24,13 +24,11 @@ export default class PortfolioContainer extends Component {
   }
 
   render() {
-
+    $('html,body').scrollTop(0);
     return (
     <div>
       <Navbar />
-      <div className="portfolio-title project-container">
-        <h3>Portfolio</h3>
-      </div>
+
       <div className="container portfolio-nav">
       <Link to="/">
         <div className="portfolio-div-two">

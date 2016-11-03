@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
-import Me from '../resources/me-and-o.jpg';
+import turtle from '../resources/turtle.svg';
+import bubbles from '../resources/bubbled.svg';
 import $ from 'jquery';
 
 $('html,body').scrollTop(0);
@@ -11,22 +12,17 @@ export default () => {
       <div>
         <Navbar />
         <div className="container container-about-contact">
-          <div className="contact-title">
-            <h3>About Me</h3>
-            <h2 className="josefin">Scott Wilkins</h2>
-            <div className="contact-spacer"></div>
-          </div>
+          <div className="spacer"></div>
           <div className="middle-contact-container">
-            <div>
-              <img className="me-olive safari_only" src={Me} alt="cartoon pic of me with cat" />
+            <div className="contacts-images">
+              <img className="bubbles bubbles-about-contact" src={bubbles} alt="bubbles" />
+              <img className="me-olive safari_only" src={turtle} alt="turtle" />
             </div>
-            <div className="contacts">
-              <p>Vaporware tumeric gluten-free, neutra whatever semiotics williamsburg. Fingerstache chicharrones tilde venmo you probably haven't heard of them leggings. PBR&B trust fund roof party, small batch gochujang cold-pressed health goth schlitz helvetica. Marfa banh mi glossier, cronut man bun mumblecore viral jianbing. Iceland poke mlkshk distillery. Hashtag pinterest tumblr godard, trust fund tousled small batch hell of irony beard four loko pork belly wayfarers twee williamsburg. Tumblr shoreditch vaporware, farm-to-table stumptown man bun forage tumeric sustainable fam.</p>
+            <div className="contacts about-text">
+            <p>I'm a typical Colorado native who enjoys the embarrassment of riches provided by our sunshine State. Camping, ice-climbing, blah, blah, you name it, I've at least tried it. I also love solving puzzles and findly myself strangely drawn to coding challenges. (Currently ranked 4kyu on Codewars.)</p>
+            <p>Recently, I've found myself drawn to React and Redux for development. The combination of modularity and a single source of state is like magic for a coder. I do have experience with AngularJS and jQuery as well as SQL. From the web immersion course at Galvanize, I've learned to pick up new frameworks and languages quickly.</p>
             </div>
-
           </div>
-
-
         </div>
         <Footer />
       </div>

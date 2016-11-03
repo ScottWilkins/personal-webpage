@@ -6,25 +6,25 @@ export default (props) => {
       case "sesame":
         return (
           <div className="project-container projects-titles">
-            <h1>Sesame</h1>
+            <h1>sesame</h1>
           </div>
         );
       case "wiki":
         return (
           <div className="project-container projects-titles">
-            <h1>Clickable Wiki of Thrones</h1>
+            <h1>clickable wiki of thrones</h1>
           </div>
       );
       case "fairshare":
       return (
         <div className="project-container projects-titles">
-          <h1>FairShare</h1>
+          <h1>fairshare</h1>
         </div>
     );
       case "reddit":
       return (
         <div className="project-container projects-titles">
-          <h1>Reddit Klone</h1>
+          <h1>reddit klone</h1>
         </div>
     );
       default:

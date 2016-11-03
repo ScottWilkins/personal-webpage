@@ -72,8 +72,8 @@ constructor(props){
         <div className="App container">
 
           <div className="title">
-            <h1 className="my-name">Scott Wilkins</h1>
-            <h2 className="josefin">Web Developer</h2>
+            <h1 className="my-name">scott wilkins</h1>
+            <h2 className="josefin">web developer</h2>
             <img src={bubbles} className="bubbles" alt="logo" />
             <img src={turtle} className="App-logo" alt="turtle" />
           </div>
@@ -87,9 +87,9 @@ constructor(props){
                 ><img src={bubbleLeft} className="me bubble-about" alt="chat bubble" /></div>
                 <div>
                   <div className="text">
-                    <h3>Hi</h3>
+                    <h3>hi</h3>
                     <p>I'm Scott</p>
-                    <p>I live in Denver Colorado and I love to solve problems. The latest problem I've solved is integrating Redux into React for better state management. I've recently graduated from the Galvanize Web Immersive program with over 1000 hours of hands-on training. This has given me a great perspective on both front and back end development as well as the ability to learn new technologies quickly.  <Link to="/about">more...</Link></p>
+                    <p>I'm a web developer currently living in Denver, Colorado. For a long time I managed restaurants where I put together teams to deliver a product under highly constrained deadlines. Applying this mentality to web development has helped me grow as a developer with the understanding that time is money. I learn fast and know the value of delivering a product on time. If you'd like to get together over a beer (or two...) and discuss what I can do for you, feel free to reach out.<Link to="/about"> more...</Link></p>
                     <div onClick={this.emsmallen}>
                       <h3 className="x"
                         data-target=".bubble-about"
@@ -113,7 +113,7 @@ constructor(props){
                      data-icon=".rabbit"
                      data-direction="left">
 
-                     About Me</h3>
+                     about me</h3>
                 </div>
             </section>
 
@@ -125,7 +125,7 @@ constructor(props){
               </div>
               <img src={penguin} className="me penguin" alt="origami penguin" />
                 <div className="josefin portfolio">
-                  <h3>Portfolio</h3>
+                  <h3>portfolio</h3>
                   <p className="default-font">Click on icon for a brief description</p>
                   <div className="portfolio-div-main">
                     <Link className="portfolio-link" to={{ pathname: '/portfolio', query: { project: 'sesame' } }}>
@@ -174,7 +174,7 @@ constructor(props){
                      data-content=".portfolio"
                      data-icon=".penguin"
                      data-direction="right">
-                     Portfolio</h3>
+                     portfolio</h3>
                 </div>
             </section>
 
@@ -186,7 +186,7 @@ constructor(props){
                 <div>
                   <div className="row">
                     <div className="img-skills skills">
-                      <h3 className="josefin">Skills</h3>
+                      <h3 className="josefin">skills</h3>
                       <table>
                         <thead>
                           <tr>
@@ -272,7 +272,7 @@ constructor(props){
                     data-expression=".title-llama"
                     data-content=".skills"
                     data-icon=".llama"
-                    data-direction="left">Skills</h3>
+                    data-direction="left">skills</h3>
                 </div>
             </section>
 
@@ -282,7 +282,7 @@ constructor(props){
               <img src={bubbleRight} className="me bubble-contact" alt="chat bubble" />
               <img src={squirrel} className="me squirrel" alt="origami squirrel" />
                 <div className="contact">
-                  <h3 className="josefin">Contact Me</h3>
+                  <h3 className="josefin">contact me</h3>
                   <div className="contacts contacts-about">
                     <p className="contact-info"><i className="fa fa-footer fa-phone-square"></i>(720)280-5450 </p>
                     <p className="contact-info"><a href="mailto:scottjeffreywilkins@gmail.com"> <i className="fa fa-envelope fa-navbar"></i>   scottjeffreywilkins@gmail.com </a></p>
@@ -314,7 +314,7 @@ constructor(props){
                     data-expression=".title-squirrel"
                     data-content=".contact"
                     data-icon=".squirrel"
-                    data-direction="right">Contact</h3>
+                    data-direction="right">contact me</h3>
                 </div>
             </section>
 

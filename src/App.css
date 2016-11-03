@@ -43,11 +43,13 @@
 
 .icons {
   font-size: 20px;
+  color: #c4d5f2;
 }
 .fa-navbar {
   margin-right:12px;
   color: #277ab7;
 }
+
 .fa-footer {
   margin-right:12px;
   color: #277ab7;
@@ -376,6 +378,8 @@ th{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 17%;
+  margin-left: -7%;
 }
 .contact-title{
   margin-top: 100px;
@@ -400,4 +404,19 @@ th{
 .contacts-about{
   position: relative;
   left:15%;
+}
+.contacts-images{
+  margin-top: 10%;
+  display:flex;
+  flex-direction: column;
+}
+.bubbles-about-contact{
+  position: relative;
+  right: 20%;
+}
+.about-text{
+  font-size: 18px;
+}
+.links{
+  color:#c4d5f2;
 }
