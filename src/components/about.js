@@ -8,17 +8,27 @@ $('html,body').scrollTop(0);
 
 export default () => {
     return (
-    <div>
-      <Navbar />
-      <div className="portfolio-title project-container">
-          <h3 className="about-me-title">About Me</h3>
-        <div className="flex-row">
-          <img className="me-olive safari_only" src={Me} alt="cartoon pic of me with cat" />
-          <div className="horizontal-spacer"></div>
-          <p className="about-me">Art party heirloom +1 church-key artisan. Synth tofu four loko, knausgaard salvia lumbersexual 3 wolf moon mumblecore migas kinfolk sartorial hoodie edison bulb affogato austin. Jean shorts butcher chillwave, freegan tumeric intelligentsia street art jianbing snackwave mumblecore lo-fi blue bottle organic. Chicharrones air plant ethical keffiyeh succulents. Tumeric edison bulb blog seitan VHS, XOXO fanny pack vegan umami. Activated charcoal you probably haven't heard of them truffaut messenger bag la croix, ramps hella. Church-key tbh tousled raclette, viral austin hexagon drinking vinegar fixie.</p>
+      <div>
+        <Navbar />
+        <div className="container container-about-contact">
+          <div className="contact-title">
+            <h3>About Me</h3>
+            <h2 className="josefin">Scott Wilkins</h2>
+            <div className="contact-spacer"></div>
+          </div>
+          <div className="middle-contact-container">
+            <div>
+              <img className="me-olive safari_only" src={Me} alt="cartoon pic of me with cat" />
+            </div>
+            <div className="contacts">
+              <p>Vaporware tumeric gluten-free, neutra whatever semiotics williamsburg. Fingerstache chicharrones tilde venmo you probably haven't heard of them leggings. PBR&B trust fund roof party, small batch gochujang cold-pressed health goth schlitz helvetica. Marfa banh mi glossier, cronut man bun mumblecore viral jianbing. Iceland poke mlkshk distillery. Hashtag pinterest tumblr godard, trust fund tousled small batch hell of irony beard four loko pork belly wayfarers twee williamsburg. Tumblr shoreditch vaporware, farm-to-table stumptown man bun forage tumeric sustainable fam.</p>
+            </div>
+
+          </div>
+
+
         </div>
         <Footer />
       </div>
-    </div>
     )
   }

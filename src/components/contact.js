@@ -10,15 +10,30 @@ export default () => {
     return (
     <div>
       <Navbar />
-      <div className="portfolio-title project-container">
-          <h3 className="about-me-title">Contact</h3>
-        <div className="flex-row">
-          <img className="me-olive safari_only" src={Me} alt="cartoon pic of me with cat" />
-          <div className="horizontal-spacer"></div>
-          <p className="about-me">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <div className="container container-about-contact">
+        <div className="contact-title">
+          <h3>Contact</h3>
+          <h2 className="josefin">Scott Wilkins</h2>
+          <div className="contact-spacer"></div>
         </div>
-        <Footer />
+        <div className="middle-contact-container">
+          <div>
+            <img className="me-olive safari_only" src={Me} alt="cartoon pic of me with cat" />
+          </div>
+          <div className="contacts">
+            <p className="contact-info"><i className="fa fa-footer fa-phone-square"></i>(720)280-5450 </p>
+            <p className="contact-info"><a href="mailto:scottjeffreywilkins@gmail.com"> <i className="fa fa-envelope fa-navbar"></i>   scottjeffreywilkins@gmail.com </a></p>
+            <p className="contact-info"><a href="https://www.linkedin.com/in/scottjwilkins" target="_blank"><i className="fa fa-navbar fa-linkedin"></i> linkedin.com/in/scottjwilkins</a></p>
+            <p className="contact-info"><a href="https://github.com/ScottWilkins" target="_blank"><i className="fa fa-navbar fa-github"></i> github.com/ScottWilkins</a></p>
+            <p className="contact-info"><a href="https://twitter.com/scottjeffreywi1" target="_blank"><i className="fa fa-navbar fa-twitter"></i> twitter.com/scottjeffreywi1</a></p>
+            <p className="contact-info"><a href="https://www.facebook.com/ScottJeffreyWilkins" target="_blank"><i className="fa fa-navbar fa-facebook"></i> facebook.com/ScottJeffreyWilkins</a></p>
+          </div>
+
+        </div>
+
+
       </div>
+      <Footer />
     </div>
     )
   }

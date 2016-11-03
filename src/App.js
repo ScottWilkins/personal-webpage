@@ -282,7 +282,15 @@ constructor(props){
               <img src={bubbleRight} className="me bubble-contact" alt="chat bubble" />
               <img src={squirrel} className="me squirrel" alt="origami squirrel" />
                 <div className="contact">
-                  <p>Salvia tacos subway tile poke photo booth, paleo food truck dreamcatcher blog hot chicken gluten-free. Heirloom craft beer poke, lumbersexual offal mlkshk echo park bespoke vegan small batch. Austin fingerstache 8-bit, ethical shoreditch put a bird on it chia stumptown wolf post-ironic. Paleo coloring book occupy, typewriter mustache keffiyeh affogato vice echo park venmo four loko vaporware messenger bag listicle. Jean shorts PBR&B cray, food truck deep v heirloom dreamcatcher. Health goth cold-pressed cardigan, freegan blog chambray cray copper mug. Microdosing before they sold out skateboard kickstarter man bun XOXO.</p>
+                  <h3 className="josefin">Contact Me</h3>
+                  <div className="contacts contacts-about">
+                    <p className="contact-info"><i className="fa fa-footer fa-phone-square"></i>(720)280-5450 </p>
+                    <p className="contact-info"><a href="mailto:scottjeffreywilkins@gmail.com"> <i className="fa fa-envelope fa-navbar"></i>   scottjeffreywilkins@gmail.com </a></p>
+                    <p className="contact-info"><a href="https://www.linkedin.com/in/scottjwilkins" target="_blank"><i className="fa fa-navbar fa-linkedin"></i> linkedin.com/in/scottjwilkins</a></p>
+                    <p className="contact-info"><a href="https://github.com/ScottWilkins" target="_blank"><i className="fa fa-navbar fa-github"></i> github.com/ScottWilkins</a></p>
+                    <p className="contact-info"><a href="https://twitter.com/scottjeffreywi1" target="_blank"><i className="fa fa-navbar fa-twitter"></i> twitter.com/scottjeffreywi1</a></p>
+                    <p className="contact-info"><a href="https://www.facebook.com/ScottJeffreyWilkins" target="_blank"><i className="fa fa-navbar fa-facebook"></i> facebook.com/ScottJeffreyWilkins</a></p>
+                  </div>
                   <div onClick={this.emsmallen}>
                     <h3 className="x"
                      data-target=".bubble-contact"

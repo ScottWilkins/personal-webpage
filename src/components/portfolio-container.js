@@ -24,7 +24,7 @@ export default class PortfolioContainer extends Component {
   }
 
   render() {
-    $('html,body').scrollTop(0);
+
     return (
     <div>
       <Navbar />
