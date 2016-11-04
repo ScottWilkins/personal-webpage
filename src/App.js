@@ -289,7 +289,6 @@ constructor(props){
                     <p className="contact-info"><a href="https://www.linkedin.com/in/scottjwilkins" target="_blank"><i className="fa fa-navbar fa-linkedin"></i> linkedin.com/in/scottjwilkins</a></p>
                     <p className="contact-info"><a href="https://github.com/ScottWilkins" target="_blank"><i className="fa fa-navbar fa-github"></i> github.com/ScottWilkins</a></p>
                     <p className="contact-info"><a href="https://twitter.com/scottjeffreywi1" target="_blank"><i className="fa fa-navbar fa-twitter"></i> twitter.com/scottjeffreywi1</a></p>
-                    <p className="contact-info"><a href="https://www.facebook.com/ScottJeffreyWilkins" target="_blank"><i className="fa fa-navbar fa-facebook"></i> facebook.com/ScottJeffreyWilkins</a></p>
                   </div>
                   <div onClick={this.emsmallen}>
                     <h3 className="x"
@@ -329,12 +328,3 @@ constructor(props){
 }
 
 export default App;
-
-// <img src={htmlCss} alt="htmlCss" />
-// <img src={nodeJS} alt="nodeJS" />
-// <img src={react} alt="react" />
-// <img src={redux} alt="redux" />
-// <img src={postgresQL} alt="postgresQL" />
-// <img src={angular} alt="angular" />
-// <img src={firebase} alt="firebase" />
-// <img src={express} alt="express" />

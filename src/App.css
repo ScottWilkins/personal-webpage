@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #4d544d;
+  color: #1b3e77;
 }
 .App {
   text-align: center;
@@ -264,7 +264,7 @@ h3 {
   -webkit-box-shadow: 0;
   -moz-box-shadow:    0;
   box-shadow:         none;
-  margin: 0 2px;
+  margin-right: 1px;
   height: 124px;
   width: 124px;
 }
@@ -345,9 +345,11 @@ td, th {
     text-align: left;
     padding: 4px;
     font-size: 16px;
+    color: #1b3e77;
 }
 th{
   font-size: 18px;
+  color: #1b3e77;
 }
 .me-olive{
   height: 400px;
