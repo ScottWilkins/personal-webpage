@@ -11,26 +11,26 @@ export default (props) => {
       case "sesame":
         return (
           <div>
-            <img src={sesameIntro} className="project" />
-            <img src={sesameDoor} className="project" />
+            <img src={sesameIntro} className="project" alt="sesame intro" />
+            <img src={sesameDoor} className="project" alt="sesame door"/>
           </div>
         );
       case "wiki":
         return (
           <div>
-          <img src={got} className="project" />
+          <img src={got} className="project" alt="clickable wiki of thrones" />
         </div>
       );
       case "fairshare":
       return (
         <div>
-        <img src={fairshare} className="project" />
+        <img src={fairshare} className="project" alt="fairshare"/>
       </div>
     );
       case "reddit":
       return (
         <div>
-        <img src={reddit} className="project" />
+        <img src={reddit} className="project" alt="reddit klone"/>
       </div>
     );
       default:

@@ -27,7 +27,7 @@ export default class PortfolioContainer extends Component {
     $('html,body').scrollTop(0);
     return (
     <div>
-      <Navbar />
+      <Navbar page="portfolio"/>
 
       <div className="container portfolio-nav">
       <Link to="/">

@@ -10,7 +10,7 @@ $('html,body').scrollTop(0);
 export default () => {
     return (
     <div>
-      <Navbar />
+      <Navbar page="contact"/>
       <div className="container container-about-contact">
         <div className="spacer"></div>
         <div className="middle-contact-container">

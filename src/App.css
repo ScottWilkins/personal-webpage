@@ -56,7 +56,6 @@
 }
 .fa-navbar:hover {
   color: #1b527c;
-  font-size: 22px;
 }
 
 .projects {
@@ -419,4 +418,11 @@ th{
 }
 .links{
   color:#c4d5f2;
+  padding: 5px;
+}
+.links:hover{
+  text-decoration: none;
+}
+.highlight{
+  box-shadow: 0px 0px 25px #fff;
 }

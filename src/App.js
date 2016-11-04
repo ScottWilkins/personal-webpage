@@ -68,7 +68,7 @@ constructor(props){
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar page="home"/>
         <div className="App container">
 
           <div className="title">
@@ -87,7 +87,7 @@ constructor(props){
                 ><img src={bubbleLeft} className="me bubble-about" alt="chat bubble" /></div>
                 <div>
                   <div className="text">
-                    <h3>hi</h3>
+                    <h3>Hi</h3>
                     <p>I'm Scott</p>
                     <p>I'm a web developer currently living in Denver, Colorado. For a long time I managed restaurants where I put together teams to deliver a product under highly constrained deadlines. Applying this mentality to web development has helped me grow as a developer with the understanding that time is money. I learn fast and know the value of delivering a product on time. If you'd like to get together over a beer (or two...) and discuss what I can do for you, feel free to reach out.<Link to="/about"> more...</Link></p>
                     <div onClick={this.emsmallen}>
