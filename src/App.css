@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #1b3e77;
+  color: #365382;
 }
 .App {
   text-align: center;
@@ -237,10 +237,11 @@ h3 {
 .portfolio-nav {
   padding-top: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .portfolio-icon-two{
   height: 80px;
+
 }
 .portfolio-div-two{
   text-decoration: none;
@@ -345,11 +346,11 @@ td, th {
     text-align: left;
     padding: 4px;
     font-size: 16px;
-    color: #1b3e77;
+    color: #365382;
 }
 th{
   font-size: 18px;
-  color: #1b3e77;
+  color: #365382;
 }
 .me-olive{
   height: 400px;
@@ -427,4 +428,8 @@ th{
 }
 .highlight{
   box-shadow: 0px 0px 25px #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #365382;
 }
