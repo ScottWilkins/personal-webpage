@@ -31,7 +31,7 @@ import React from 'react';
         case "reddit":
         return (
           <div>
-            <p>Reddit Klone is an Angular app that mimics that popular social media site. It hits an api to bring in data and allows users to post and comment. </p>
+            <p>Reddit Klone is an Angular app that mimics that popular social media site. It uses factories, filters and dependency injection along with an external api to bring in data and allows users to post and comment. </p>
             <p>Website: <a href="https://reddit-klone.firebaseapp.com" target="_blank">Reddit Klone</a></p>
             <p>Github: <a href="https://github.com/ScottWilkins/reddit-clone" target="_blank">Reddit Klone</a></p>
           </div>

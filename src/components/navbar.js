@@ -2,6 +2,7 @@ import React from 'react';
 import { Link} from 'react-router';
 export default function(props) {
   function myClass(name) {
+    console.log(props.page);
     return name === props.page ? "links highlight" : "links";
   }
   return (
@@ -11,7 +12,7 @@ export default function(props) {
           <Link to="/"><span className={myClass("home")}>scott wilkins</span></Link>
         </div>
         <div className="col-sm-1 col-xs-6">
-          <Link to="/portfolio"><span className={myClass("portfolio")}>portfolio</span></Link>
+          <Link to="/portfolio"><span className={myClass("port")}>portfolio</span></Link>
         </div>
         <div className="col-sm-1 col-xs-6">
           <Link to="/about"><span className={myClass("about")}>about me</span></Link>
